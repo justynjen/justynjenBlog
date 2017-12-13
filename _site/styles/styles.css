@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: hidden;
+  font-size: 14px;
+  color: rgb(60,60,60);
+}
+section {
+  padding: 2%;
+}
+img {
+  max-width : 100%;
+  height: auto;
+}
+.bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+hr {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 3.5rem;
+  margin: 1rem 0;
+}
+hr.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  display: inline-block;
+  color: inherit;
+}
+header{
+  position: relative;
+  padding: 0 5%;
+  min-height: 4rem;
+}
+header nav a,
+footer nav a {
+  text-decoration: none;
+  padding: 0.3rem 0.7rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+h2{
+  font-size: 3.8rem;
+  text-align: center;
+  font-weight: 400;
+}
+h3{
+  font-size: 3.4rem;
+  line-height: 1;
+}
+h4{
+  font-size: 2.4rem;
+}
+p{
+  font-size: 1.3rem;
+  padding: 0 5%;
+}
+.banner{
+  min-height: 75vh;
+}
+.about{
+  min-height: 50vh;
+}
+.guides{
+  min-height: 75vh;
+}
+.hireBanner{
+  min-height: 50vh;
+}
+.subscribe{
+  background-color: rgba(128, 128, 128, 0.4588235294117647);
+  padding: 2%;
+  min-height: 30vh;
+}
+.subscribe button{
+  color: black;
+  padding: 1%;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+input[type="email"] {
+  padding: 1%;
+  border-radius: 4px;
+  font-size: 18px;
+}
+/*
+Helpers
+*/
+.centered{
+  text-align: center;
+}
+.shorelines{
+  font-family: 'shorelines_script_boldregular';
+}
+.verticleText{
+  transform: rotate(90deg);
+  float: left;
+}
+.padding{
+  padding: 3%;
+}
+.lineHeight{
+  line-height: 1;
+}
+/*
+Footer
+*/
+
+footer {
+  background-color: rgba(135, 245, 216, 0.57);
+  color: rgb(60,60,60);
+  padding: 2vh 5%;
+}
+
+footer nav a {
+  font-size: 0.9rem;
+  padding: 0.2rem 0;
+}
+
+.sub-footer {
+  background-color: #35353f;
+  color: rgb(220,220,220);
+  padding: 0.5%;
+  text-align: center;
+  font-size: 0.8rem;
+}
